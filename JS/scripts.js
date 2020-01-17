@@ -78,3 +78,37 @@ document.write('Hello World');
 var favoriteMovie = 'My favorite movie is StarWars';
 
 document.write(favoriteMovie);
+
+//Event Listeners
+var quote = document.querySelector("#quote");
+var prev= document.querySelector("prev");
+var newQuote = document.querySelector("#next");
+var n = 0;
+varquoteList = [
+  "Slow progress is better than no progress",
+  "If you cannot accept it, change it. If you cannot change it, accept it"
+  "Your time is limited. So, don't waste it living some else's life"
+];
+
+  var backquote = quoteList.reverse;
+
+  newQuote.addEventsListener("click", function(){
+
+    if (n <100){
+      quote.textContent = quoteList [n];
+      n++;
+    } else {
+      quote.textContent = quoteList[n];
+      n = 0;}
+    });
+    prev.addEventListener("click",
+                            function(){
+    if (n<100) {n
+        quote.textcontent = quoteList[n];
+        n--; }
+      else{
+        quote.textcontent = quoteList[n];
+        n = 0;}
+      });
+              
+                            

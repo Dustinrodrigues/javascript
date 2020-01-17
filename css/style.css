@@ -31,6 +31,7 @@ text-align: center;
 }
 main{
     background-color: black;
+    height: 800px;
 }
 body{
     background-color: black;
@@ -52,4 +53,8 @@ right: 1000px;
 footer{
     margin-right: 170px;
     font-size: larger;
+}
+/* event listener */
+#quote{
+    color: purple;
 }
